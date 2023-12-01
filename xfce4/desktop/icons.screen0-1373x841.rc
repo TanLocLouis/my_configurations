@@ -1,0 +1,27 @@
+[xfdesktop-version-4.10.3+-rcfile_format]
+4.10.3+=true
+
+[/home/debian/Desktop/TH NMLT]
+row=0
+col=12
+
+[/home/debian/Desktop/NMLT]
+row=0
+col=11
+
+[/home/debian/Desktop/kitty.desktop]
+row=3
+col=0
+
+[Trash]
+row=0
+col=0
+
+[/]
+row=1
+col=0
+
+[/home/debian]
+row=2
+col=0
+
