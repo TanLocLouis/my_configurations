@@ -6,12 +6,13 @@ set expandtab
 set clipboard=unnamedplus
 
 call plug#begin()
-Plug 'https://github.com/vim-airline/vim-airline'
-Plug 'https://github.com/vim-airline/vim-airline-themes'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 Plug 'gruvbox-community/gruvbox', {'tag' : 'v2.2.0'}
 Plug 'jiangmiao/auto-pairs'
-Plug 'https://github.com/preservim/nerdtree'
+Plug 'preservim/nerdtree'
 Plug 'easymotion/vim-easymotion'
+Plug 'github/copilot.vim'
 call plug#end()
 colorscheme gruvbox
-nnoremap <C-x> :NERDTreeToggle<CR>
+nnoremap <C-d> :NERDTreeToggle<CR>
