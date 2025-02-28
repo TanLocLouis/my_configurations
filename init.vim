@@ -17,3 +17,5 @@ Plug 'voldikss/vim-floaterm'
 call plug#end()
 colorscheme gruvbox
 nnoremap <C-d> :NERDTreeToggle<CR>
+nnoremap <C-t> :FloatermToggle<CR>
+tnoremap <Esc> <C-\><C-n>
