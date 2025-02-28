@@ -13,6 +13,7 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'preservim/nerdtree'
 Plug 'easymotion/vim-easymotion'
 Plug 'github/copilot.vim'
+Plug 'voldikss/vim-floaterm'
 call plug#end()
 colorscheme gruvbox
 nnoremap <C-d> :NERDTreeToggle<CR>
