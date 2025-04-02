@@ -14,6 +14,8 @@ Plug 'preservim/nerdtree'
 Plug 'easymotion/vim-easymotion'
 Plug 'github/copilot.vim'
 Plug 'voldikss/vim-floaterm'
+Plug 'neoclide/coc.nvim', {'branch':'release'}
+
 call plug#end()
 colorscheme gruvbox
 nnoremap <C-d> :NERDTreeToggle<CR>
